@@ -40,7 +40,7 @@ router.get('/generate-fake-data', function(req, res, next) {
       if (err) throw err;
     });
   }
-  res.redirect('/add-product');
+  res.redirect('/products/1');
 });
 
 router.get('/remove-products', function(req, res, next) {

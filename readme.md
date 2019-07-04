@@ -17,7 +17,8 @@ Pagination Example:
 ![](https://i.imgur.com/rvvEJmR.png)
 
 ## Additional Changes
-Furthermore the following changes have been done with no relation to the tutorial,
+Furthermore the following changes have been done for personal choice, See [this commit](https://github.com/entrptaher/node-paginate/tree/7aa563954247be6019fe00f29fb30bc3b3014669) for a less destructive code.
+
 - Add readme
 - Updated all package versions
 - Added nodemon as devDependency
@@ -29,3 +30,4 @@ Furthermore the following changes have been done with no relation to the tutoria
 - Use local bootstrap
 - Replace remote image with random qr code to avoid bandwidth wastage
 - Add `/remove-products` which removes all products from database
+- `generate-fake-data` redirects to `/products/1`
