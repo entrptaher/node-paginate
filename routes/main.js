@@ -2,6 +2,9 @@ const router = require('express').Router();
 const faker = require('faker');
 const Product = require('../models/product');
 
+var randomstring = require("randomstring");
+var qr = require('qr-image');
+
 router.get('/', function(req, res, next) {
   res.render('index');
 });
@@ -43,7 +46,7 @@ router.get('/generate-fake-data', function(req, res, next) {
 router.get('/products/:page', function(req, res, next) {
   const perPage = 9;
   const page = req.params.page || 1;
-  
+
   Product.find({})
     .skip(perPage * page - perPage)
     .limit(perPage)
@@ -57,6 +60,12 @@ router.get('/products/:page', function(req, res, next) {
         });
       });
     });
+});
+
+router.get('/qr/:id.png', function(req, res, next) {
+  var code = qr.image(randomstring.generate(), { type: 'png', size: 15 });
+  res.type('png');
+  code.pipe(res);
 });
 
 module.exports = router;

@@ -16,6 +16,8 @@
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "mongoose": "^5.6.3",
+    "qr-image": "^3.2.0",
+    "randomstring": "^1.1.5",
     "sqlite3": "^4.0.9",
     "util": "^0.12.0"
   },
