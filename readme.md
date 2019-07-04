@@ -12,4 +12,5 @@ Furthermore the following changes have been done with no relation to the tutoria
 - Updated all package versions.
 - Added nodemon as devDependency.
 - Added .gitignore
+- Added .prettierrc
 - Formatted using prettier on vscode.
