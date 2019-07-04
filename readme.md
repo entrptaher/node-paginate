@@ -1,5 +1,12 @@
 Extracted from [this repl](https://repl.it/@NguyenDa18/NodePaginationExample), based on tutorial [Create Pagination with Node.js, MongoDB, Express and EJS Step by Step from Scratch](https://evdokimovm.github.io/javascript/nodejs/mongodb/pagination/expressjs/ejs/bootstrap/2017/08/20/create-pagination-with-nodejs-mongodb-express-and-ejs-step-by-step-from-scratch.html).
 
+## Installation
+
+- Clone the repository.
+- Install all packages.
+- Start the app.
+- Visit: http://localhost:3000/products/1
+
 ## Overview
 Front page:
 
