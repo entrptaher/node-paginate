@@ -43,7 +43,7 @@ router.get('/generate-fake-data', function(req, res, next) {
 router.get('/products/:page', function(req, res, next) {
   const perPage = 9;
   const page = req.params.page || 1;
-
+  
   Product.find({})
     .skip(perPage * page - perPage)
     .limit(perPage)

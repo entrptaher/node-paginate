@@ -2,15 +2,21 @@ Extracted from [this repl](https://repl.it/@NguyenDa18/NodePaginationExample), b
 
 ## Overview
 Front page:
+
 ![](https://i.imgur.com/M8HoUbU.png)
 
 Pagination Example:
+
 ![](https://i.imgur.com/rvvEJmR.png)
 
 ## Additional Changes
 Furthermore the following changes have been done with no relation to the tutorial,
-- Updated all package versions.
-- Added nodemon as devDependency.
+- Add readme
+- Updated all package versions
+- Added nodemon as devDependency
 - Added .gitignore
 - Added .prettierrc
-- Formatted using prettier on vscode.
+- Formatted using prettier on vscode
+- Adjusted image min-height
+- Added `prev` and `next` pagination
+- Use local bootstrap
