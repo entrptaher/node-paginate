@@ -2,7 +2,7 @@ const router = require('express').Router();
 const faker = require('faker');
 const Product = require('../models/product');
 
-var randomstring = require("randomstring");
+var randomstring = require('randomstring');
 var qr = require('qr-image');
 
 router.get('/', function(req, res, next) {
@@ -41,6 +41,15 @@ router.get('/generate-fake-data', function(req, res, next) {
     });
   }
   res.redirect('/add-product');
+});
+
+router.get('/remove-products', function(req, res, next) {
+  Product.remove({}).exec(function(err) {
+    Product.count().exec(function(err, count) {
+      if (err) return next(err);
+      res.redirect('/');
+    });
+  });
 });
 
 router.get('/products/:page', function(req, res, next) {

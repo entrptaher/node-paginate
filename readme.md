@@ -28,3 +28,4 @@ Furthermore the following changes have been done with no relation to the tutoria
 - Added `prev` and `next` pagination
 - Use local bootstrap
 - Replace remote image with random qr code to avoid bandwidth wastage
+- Add `/remove-products` which removes all products from database
