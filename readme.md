@@ -5,7 +5,8 @@ Extracted from [this repl](https://repl.it/@NguyenDa18/NodePaginationExample), b
 - Clone the repository.
 - Install all packages.
 - Start the app.
-- Visit: http://localhost:3000/products/1
+- Visit: http://localhost:3000
+- Click "Generate Fake Data"
 
 ## Overview
 Front page:
@@ -14,7 +15,7 @@ Front page:
 
 Pagination Example:
 
-![](https://i.imgur.com/rvvEJmR.png)
+![](https://i.imgur.com/N3e54B7.png)
 
 ## Additional Changes
 Furthermore the following changes have been done for personal choice, See [this commit](https://github.com/entrptaher/node-paginate/tree/7aa563954247be6019fe00f29fb30bc3b3014669) for a less destructive code.
